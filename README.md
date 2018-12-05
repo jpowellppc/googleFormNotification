@@ -5,10 +5,10 @@ This is a container bound script. Go to the form you would like to apply it to a
 
 Change the bold code snippets to your specifications
 
-Line 8 - Change bold snippet to the form's key in the URL
+Line 8 - Change to the form's key (in the URL).
 
 > var form = FormApp.openById('**ENTER_FORM_ID_HERE**');	// INSERT FORM ID HERE
 
-Line 41 - Change bold fake emails to your choosing
+Line 41 - Change example emails to your choosing
 
 > MailApp.sendEmail('**setme1@example.com**, **setMe2@example.com**', 'New PPC Client Questionnaire: ' + companyName , buildStringFromResponses());
